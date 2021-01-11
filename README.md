@@ -71,8 +71,6 @@ cd front-web
 # instalar dependências
 npm install
 
-npm install --save react-toastify
-
 # executar o projeto
 npm start
 ```

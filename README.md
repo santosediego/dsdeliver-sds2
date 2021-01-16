@@ -94,6 +94,4 @@ npm start
 
 # Autor
 
-Diego Santos
-
-https://www.linkedin.com/in/santosediego/
+[Diego Santos](https://www.linkedin.com/in/santosediego/ "Perfil Linkedin Diego Santos")

@@ -109,7 +109,9 @@ O projeto não traz o script de criação das tabelas (`ddl-auto=none`), então 
 ```
 
 ### Front-end web
-Pré-requisitos: Node 16, npm e um token gratuito do [Mapbox](https://account.mapbox.com) (usado na busca de endereço do pedido)
+Pré-requisitos: **Node 16**, npm e um token gratuito do [Mapbox](https://account.mapbox.com) (usado na busca de endereço do pedido)
+
+> O projeto usa `react-scripts` 4 (2021), que não funciona em Node 17 ou superior (erro `ERR_PACKAGE_PATH_NOT_EXPORTED`). Use o Node 16, por exemplo com o [nvm](https://github.com/nvm-sh/nvm): `nvm install 16 && nvm use 16`.
 
 ```bash
 # clonar repositório (se ainda não clonou)
